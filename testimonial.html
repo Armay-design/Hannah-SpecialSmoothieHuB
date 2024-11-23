@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Locations and Contact Us</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #333;
+    }.cta-container {
+      margin-top: 50px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 30px;
+      background-color: #d51585;
+      color: burlywood;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;;
+    }
+
+    .cta-button:hover {
+      background-color: #7d50e5;
+
+    }.cta-button:active {
+      background-color: #cc4d40;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #ff6f61;
+    }
+    .section {
+      max-width: 600px;
+      margin:20px auto;
+      background:#fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .map {
+      width: 40%;
+      height: 300px;
+      border: 0;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #ff6f61;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #e65b52;
+    }
+  </style>
+</head>
+<body>
+  <body>
+    <a href="index.html" class="cta-button">HomePage</a>
+    <a href="menu.html" class="cta-button">View Menu</a>
+    <a href="order.html" class="cta-button">Order Now</a>
+  <h1>Our Locations and Contact Us</h1>
+  
+  <!-- Locations Section -->
+  <div class="section">
+    <h2>Our Locations</h2>
+    <p>Visit us at any of our locations:</p>
+    <ul>
+      <li><strong>Main Branch:</strong>GCTU Tesano Campus,Accra,Ghana</li>
+      <li><strong>Downtown Outlet:</strong> Melcom Mall, Spintex</li>
+      <li><strong>Beachfront Kiosk:</strong>Laboma Beach, Laboni,Accra</li>
+    </ul>
+    <iframe 
+     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.7933466562436!2d-0.22579571235068335!3d5.597522230674531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9a29c79e71eb%3A0x39e24c336da5d01a!2sGCTU%20Tesano%20Campus!5e0!3m2!1sen!2sus!4v1732289746248!5m2!1sen!2sus"
+        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <!-- Contact Us Section -->
+  <div class="section">
+    <h2>Contact Us</h2>
+    <form>
+      <!-- Name -->
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+
+      <!-- Email -->
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+
+      <!-- Message -->
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your inquiry or message" required></textarea>
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+  <footer style="background-color: #333; color: #fff; padding: auto 0; text-align: center;">
+    <div style="min-height: 15px; min: width 15px; margin: 0 auto; padding: 0 20px;">
+      <!-- Contact Information -->
+      <div>
+        <h4>Contact Us</h4>
+        <p>Email: aduh6263gmail.com</p>
+        <p>Phone: +233 599 166 513</p>
+        <p>Location: GCTU Tesano Campus,Accra,Ghana</p>
+      </div>
+  
+      <!-- Quick Links -->
+      <div style="margin: 15px 0;">
+        <h4>Quick Links</h4>
+        <a href="index.html" style="color: #fff; text-decoration: none; margin: 0 10px;">HomePage</a>
+        <a href="menu.html" style="color: #fff; text-decoration: none; margin: 0 10px;">Menu</a>
+        <a href="order.html" style="color: #fff; text-decoration: none; margin: 0 10px;">Order Online</a>
+        
+      </div>
+      <!-- Copyright -->
+      <div style="margin-top: 20px;">
+        <p>&copy; 2024 Hannah'SpecialSmooThieHuB. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>  
+</body>
+</html>

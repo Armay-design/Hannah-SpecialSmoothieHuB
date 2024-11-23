@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smoothie Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color:rgb(58, 55, 55);
+    }
+    h1, h2 {
+      text-align: center;
+      color:burlywood;
+    }
+    .menu-category {
+      margin: 20px 0;
+    }
+    .menu-item {
+      display: flex;
+      align-items: center;
+      margin: 15px 0;
+      padding: 10px;
+      background-color:pink;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .menu-item img {
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+      margin-right: 15px;
+    }
+    .menu-details {
+      flex: 1;
+    }
+    .menu-title {
+      font-size: 1.2em;
+      color: #333;
+    }
+    .menu-description {
+      font-size: 0.9em;
+      color: #666;
+    }
+    .menu-price{
+      font-size:0.9em;
+      color:#666;
+    }
+    .dietary-options {
+      margin-top: 5px;
+      font-size: 0.8em;
+      color: #008000;
+      font-weight: bold;
+    
+    }
+    .cta-container {
+      margin-top: 50px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 30px;
+      background-color: #d51585;
+      color: burlywood;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;;
+    }
+
+    .cta-button:hover {
+      background-color: #7d50e5; 
+    }
+  </style>
+  <body>
+    <a href="index.html" class="cta-button">HomePage</a>
+    <a href="order.html" class="cta-button">Order Now</a>
+    <a href="contact.html" class="cta-button">Contact Us</a>
+    
+  <h1>Our Smoothie Menu</h1>
+
+  <!--  Sir I Added Comments To Make The Codes Easy To Understand -->
+    <!--Fruit Smoothies-->
+  <div class="menu-category">
+    <h2>Fruit Smoothies</h2>
+    <div class="menu-item">
+      <img src="menu photo.jpg" alt="Mango Madness Smoothie">
+      <div class="menu-details">
+        <div class="menu-title">Mango Madness</div>
+        <div class="menu-description">A tropical blend of fresh mangoes, pineapple, and a splash of orange juice.</div>
+        <div class="menu-price">Big Size: ghc 35.00 <br>SmallSize: ghc 25.00</div>
+        <div class="dietary-options">Gluten-Free, Vegan</div>
+      </div>
+      </div>
+      <div class="menu-item">
+        <img src="HSSH LOGO 2.jpg" alt="Minty Mango Smoothie">
+        <div class="menu-details">
+          <div class="menu-title">Minty Mango</div>
+          <div class="menu-description">A tropical blend of fresh mangoes, coconutmilk,banana and mint .</div>
+          <div class="menu-price">Big Size: ghc 35.00 <br>SmallSize: ghc 25.00</div>
+          <div class="dietary-options">low-sugar, Vegan</div>
+          </div>
+          </div>
+    <div class="menu-item">
+      <img src="menu photo 2.jpg" alt="Berry Blast Smoothie">
+      <div class="menu-details">
+        <div class="menu-title">Berry Blast</div>
+        <div class="menu-description">A delicious mix of strawberries, blueberries, raspberries, and almond milk.</div>
+        <div class="menu-price">Big Size: ghc 35.00<br>Small Size: ghc 25.00</div>
+        <div class="dietary-options">Low-Sugar, Vegan</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Protein Shakes -->
+  <div class="menu-category">
+    <h2>Protein Shakes</h2>
+    <div class="menu-item">
+      <img src="menu photo 3.jpg" alt="Choco-Boost Shake">
+      <div class="menu-details">
+        <div class="menu-title">Choco-Boost</div>
+        <div class="menu-description">A rich chocolate protein shake with banana and peanut butter.
+          <div class="menu-price">Big Size: ghc 35.00<br>Small Size: ghc 25.00</div>
+        <div class="dietary-options">Gluten-Free</div>
+      </div>
+    </div>
+    </div>
+    <div class="menu-item">
+      <img src="HSSH LOGO 3.jpg" alt="Peanut Power Shake">
+      <div class="menu-details">
+        <div class="menu-title">Peanut Power</div>
+        <div class="menu-description">A creamy blend of peanuts, milk,whey protein,cinnamon powder for energy.</div>
+        <div class="menu-price">Big Size: ghc 35.00<br>Small Size: ghc 25.00</div>
+        <div class="dietary-options">Low-Sugar</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Special Blends -->
+  <div class="menu-category">
+    <h2>Special Blends</h2>
+    <div class="menu-item">
+      <img src="menu photo 4.jpg" alt="Green Detox Smoothie">
+      <div class="menu-details">
+        <div class="menu-title">Green Detox</div>
+        <div class="menu-description">A refreshing mix of spinach, kale, green apple, and cucumber.</div>
+        <div class="menu-price">Big Size: ghc 35.00<br>Small Size: ghc 25.00</div>
+        <div class="dietary-options">Vegan, Gluten-Free</div>
+      </div>
+    </div>
+    <div class="menu-item">
+      <img src="HSSH LOGO 7.jpg" alt="Oat Banana Bliss Smoothie">
+      <div class="menu-details">
+        <div class="menu-title">Oat Banana Bliss</div>
+        <div class="menu-description">A hearty blend of oats, bananas, raisins, honey, and fresh milk.</div>
+        <div class="menu-price">Big Size: ghc 35.00<br>Small Size: ghc 25.00</div>
+        <div class="dietary-options">slow-sugar</div>
+      </div>
+    </div>
+  </div>
+  <a href="Recipe.html" style="text-decoration: none; color:white; font-size: 18px;" 
+                onmouseover="this.style.color='white'; this.style.textDecoration='underline'; this.style.fontWeight='bold';" 
+                onmouseout="this.style.color='red'; this.style.textDecoration='none'; this.style.fontWeight='normal';">Learn How To Make Our Oat Banana Bliss Smoothie </a>
+                
+</body>
+</html>
